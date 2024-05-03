@@ -1,6 +1,5 @@
 {
   "type": "module",
-  "main": "src/index.tsx",
   "scripts": {
     "dev": "vite",
     "test": "vitest",
