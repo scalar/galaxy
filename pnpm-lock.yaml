@@ -10,7 +10,7 @@ dependencies:
     version: 0.1.0
   '@scalar/mock-server':
     specifier: ^0.1.55
-    version: 0.1.55(axios@1.6.8)(nanoid@5.0.7)(postcss@8.4.38)(unified@11.0.4)(vitest@1.3.0)(vue-sonner@1.1.2)(vue@3.4.26)(yjs@13.6.15)
+    version: 0.1.55(axios@1.6.8)(nanoid@5.0.7)(postcss@8.4.38)(typescript@5.4.5)(unified@11.0.4)(vitest@1.3.0)(vue-sonner@1.1.2)(vue@3.4.26)(yjs@13.6.15)
   follow-redirects:
     specifier: ^1.15.6
     version: 1.15.6
@@ -49,6 +49,9 @@ devDependencies:
   prettier:
     specifier: ^3.0.3
     version: 3.2.5
+  typescript:
+    specifier: ^5.4.5
+    version: 5.4.5
   vite:
     specifier: ^5.2.11
     version: 5.2.11(@types/node@20.12.7)
@@ -870,7 +873,7 @@ packages:
       vue: ^3.2.0
     dependencies:
       '@tanstack/vue-virtual': 3.5.0(vue@3.4.26)
-      vue: 3.4.26
+      vue: 3.4.26(typescript@5.4.5)
     dev: false
 
   /@hono/node-server@1.11.1:
@@ -1135,7 +1138,7 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@scalar/api-client@1.2.12(@scalar/oas-utils@0.1.6)(vitest@1.3.0)(vue@3.4.26)(yjs@13.6.15):
+  /@scalar/api-client@1.2.12(@scalar/oas-utils@0.1.6)(typescript@5.4.5)(vitest@1.3.0)(vue@3.4.26)(yjs@13.6.15):
     resolution: {integrity: sha512-lFOnfsXCgxTfILeGeAHHIXHgg3omYuXhSsA+awWrT5Rfe9xIv3K7AW5j0b2IRlqS9sjaypS2fpO0y6VxqA9bvg==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -1144,7 +1147,7 @@ packages:
     dependencies:
       '@floating-ui/vue': 1.0.6(vue@3.4.26)
       '@headlessui/vue': 1.7.21(vue@3.4.26)
-      '@scalar/components': 0.6.1(axios@1.6.8)(vitest@1.3.0)(vue@3.4.26)
+      '@scalar/components': 0.6.1(axios@1.6.8)(typescript@5.4.5)(vitest@1.3.0)(vue@3.4.26)
       '@scalar/oas-utils': 0.1.6(axios@1.6.8)
       '@scalar/openapi-parser': 0.3.2
       '@scalar/themes': 0.7.6(vue@3.4.26)
@@ -1158,7 +1161,7 @@ packages:
       nanoid: 5.0.7
       pretty-bytes: 6.1.1
       pretty-ms: 8.0.0
-      vue: 3.4.26
+      vue: 3.4.26(typescript@5.4.5)
     transitivePeerDependencies:
       - '@jest/globals'
       - '@types/bun'
@@ -1177,7 +1180,7 @@ packages:
       - yjs
     dev: false
 
-  /@scalar/api-reference@1.22.20(nanoid@5.0.7)(postcss@8.4.38)(unified@11.0.4)(vitest@1.3.0)(vue-sonner@1.1.2)(vue@3.4.26)(yjs@13.6.15):
+  /@scalar/api-reference@1.22.20(nanoid@5.0.7)(postcss@8.4.38)(typescript@5.4.5)(unified@11.0.4)(vitest@1.3.0)(vue-sonner@1.1.2)(vue@3.4.26)(yjs@13.6.15):
     resolution: {integrity: sha512-RHbs2dekUCIwgl3udmO0AcLKykS78/Mra6qIQROQLXKwNzLcaMeps5bwC1GiziZlekM8UFUOysBwMN7A/d7oRQ==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -1185,8 +1188,8 @@ packages:
       vue: ^3.3.0
     dependencies:
       '@headlessui/vue': 1.7.21(vue@3.4.26)
-      '@scalar/api-client': 1.2.12(@scalar/oas-utils@0.1.6)(vitest@1.3.0)(vue@3.4.26)(yjs@13.6.15)
-      '@scalar/components': 0.6.1(axios@1.6.8)(vitest@1.3.0)(vue@3.4.26)
+      '@scalar/api-client': 1.2.12(@scalar/oas-utils@0.1.6)(typescript@5.4.5)(vitest@1.3.0)(vue@3.4.26)(yjs@13.6.15)
+      '@scalar/components': 0.6.1(axios@1.6.8)(typescript@5.4.5)(vitest@1.3.0)(vue@3.4.26)
       '@scalar/galaxy': 0.1.0
       '@scalar/oas-utils': 0.1.6(axios@1.6.8)
       '@scalar/openapi-parser': 0.3.2
@@ -1215,7 +1218,7 @@ packages:
       remark-stringify: 11.0.0
       unhead: 1.9.9
       unified: 11.0.4
-      vue: 3.4.26
+      vue: 3.4.26(typescript@5.4.5)
     transitivePeerDependencies:
       - '@jest/globals'
       - '@types/bun'
@@ -1238,7 +1241,7 @@ packages:
       - yjs
     dev: false
 
-  /@scalar/components@0.6.1(axios@1.6.8)(vitest@1.3.0)(vue@3.4.26):
+  /@scalar/components@0.6.1(axios@1.6.8)(typescript@5.4.5)(vitest@1.3.0)(vue@3.4.26):
     resolution: {integrity: sha512-MTabuZZU2FpM/YJ+YihOMymUQMr3YoWWUR6/2gMPREiufKrzH/qLgaqqK0XTPl7LsDxJYpYeT1Itmt5ZRsXLow==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -1249,11 +1252,11 @@ packages:
       '@storybook/test': 8.0.9(vitest@1.3.0)
       '@vueuse/core': 10.9.0(vue@3.4.26)
       class-variance-authority: 0.7.0
-      cva: 1.0.0-beta.1
+      cva: 1.0.0-beta.1(typescript@5.4.5)
       nanoid: 5.0.7
       prismjs: 1.29.0
       tailwind-merge: 2.3.0
-      vue: 3.4.26
+      vue: 3.4.26(typescript@5.4.5)
     transitivePeerDependencies:
       - '@jest/globals'
       - '@types/bun'
@@ -1270,12 +1273,12 @@ packages:
     engines: {node: '>=18'}
     dev: false
 
-  /@scalar/mock-server@0.1.55(axios@1.6.8)(nanoid@5.0.7)(postcss@8.4.38)(unified@11.0.4)(vitest@1.3.0)(vue-sonner@1.1.2)(vue@3.4.26)(yjs@13.6.15):
+  /@scalar/mock-server@0.1.55(axios@1.6.8)(nanoid@5.0.7)(postcss@8.4.38)(typescript@5.4.5)(unified@11.0.4)(vitest@1.3.0)(vue-sonner@1.1.2)(vue@3.4.26)(yjs@13.6.15):
     resolution: {integrity: sha512-//CYMd2vw5+89RSEVQMSnP3nPjPIHDnYWy436ezSbPZXfsIzjOnDhx7BWnMqz6KGmwIEN87H9wf20k7z1zhi1A==}
     engines: {node: '>=18'}
     dependencies:
       '@hono/node-server': 1.11.1
-      '@scalar/api-reference': 1.22.20(nanoid@5.0.7)(postcss@8.4.38)(unified@11.0.4)(vitest@1.3.0)(vue-sonner@1.1.2)(vue@3.4.26)(yjs@13.6.15)
+      '@scalar/api-reference': 1.22.20(nanoid@5.0.7)(postcss@8.4.38)(typescript@5.4.5)(unified@11.0.4)(vitest@1.3.0)(vue-sonner@1.1.2)(vue@3.4.26)(yjs@13.6.15)
       '@scalar/galaxy': 0.1.0
       '@scalar/oas-utils': 0.1.6(axios@1.6.8)
       '@scalar/openapi-parser': 0.3.2
@@ -1394,7 +1397,7 @@ packages:
     peerDependencies:
       vue: ^3.3.0
     dependencies:
-      vue: 3.4.26
+      vue: 3.4.26(typescript@5.4.5)
     dev: false
 
   /@scalar/use-codemirror@0.10.1(vue@3.4.26)(yjs@13.6.15):
@@ -1419,7 +1422,7 @@ packages:
       '@replit/codemirror-css-color-picker': 6.1.1(@codemirror/language@6.10.1)(@codemirror/state@6.4.1)(@codemirror/view@6.26.3)
       '@uiw/codemirror-themes': 4.22.0(@codemirror/language@6.10.1)(@codemirror/state@6.4.1)(@codemirror/view@6.26.3)
       codemirror: 6.0.1(@lezer/common@1.2.1)
-      vue: 3.4.26
+      vue: 3.4.26(typescript@5.4.5)
       yjs: 13.6.15
     optionalDependencies:
       y-codemirror.next: 0.3.3(@codemirror/state@6.4.1)(@codemirror/view@6.26.3)(yjs@13.6.15)
@@ -1433,7 +1436,7 @@ packages:
       vue: ^3.3.0
     dependencies:
       '@headlessui/vue': 1.7.21(vue@3.4.26)
-      vue: 3.4.26
+      vue: 3.4.26(typescript@5.4.5)
     dev: false
 
   /@scalar/use-toasts@0.6.1(nanoid@5.0.7)(vue-sonner@1.1.2)(vue@3.4.26):
@@ -1445,7 +1448,7 @@ packages:
       vue-sonner: ^1.0.3
     dependencies:
       nanoid: 5.0.7
-      vue: 3.4.26
+      vue: 3.4.26(typescript@5.4.5)
       vue-sonner: 1.1.2
     dev: false
 
@@ -1455,7 +1458,7 @@ packages:
     peerDependencies:
       vue: ^3.3.0
     dependencies:
-      vue: 3.4.26
+      vue: 3.4.26(typescript@5.4.5)
     dev: false
 
   /@sinclair/typebox@0.27.8:
@@ -1563,7 +1566,7 @@ packages:
       vue: ^2.7.0 || ^3.0.0
     dependencies:
       '@tanstack/virtual-core': 3.5.0
-      vue: 3.4.26
+      vue: 3.4.26(typescript@5.4.5)
     dev: false
 
   /@testing-library/dom@9.3.4:
@@ -1952,7 +1955,7 @@ packages:
     dependencies:
       '@vue/compiler-ssr': 3.4.26
       '@vue/shared': 3.4.26
-      vue: 3.4.26
+      vue: 3.4.26(typescript@5.4.5)
     dev: false
 
   /@vue/shared@3.4.26:
@@ -2336,7 +2339,7 @@ packages:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
     dev: false
 
-  /cva@1.0.0-beta.1:
+  /cva@1.0.0-beta.1(typescript@5.4.5):
     resolution: {integrity: sha512-gznFqTgERU9q4wg7jfgqtt34+RUt9S5t0xDAAEuDwQEAXEgjdDkKXpLLNjwSxsB4Ln/sqWJEH7yhE8Ny0mxd0w==}
     peerDependencies:
       typescript: '>= 4.5.5 < 6'
@@ -2345,6 +2348,7 @@ packages:
         optional: true
     dependencies:
       clsx: 2.0.0
+      typescript: 5.4.5
     dev: false
 
   /data-uri-to-buffer@2.0.2:
@@ -4576,6 +4580,11 @@ packages:
     engines: {node: '>=12.20'}
     dev: false
 
+  /typescript@5.4.5:
+    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
   /ufo@1.5.3:
     resolution: {integrity: sha512-Y7HYmWaFwPUmkoQCUIAYpKqkOf+SbVj/2fJJZ4RJMCfZp0rTGwRbzQD+HghfnhKOjL9E01okqz+ncJskGYfBNw==}
 
@@ -4860,14 +4869,14 @@ packages:
       '@vue/composition-api':
         optional: true
     dependencies:
-      vue: 3.4.26
+      vue: 3.4.26(typescript@5.4.5)
     dev: false
 
   /vue-sonner@1.1.2:
     resolution: {integrity: sha512-yg4f5s0a3oiiI7cNvO0Dajux1Y7s04lxww3vnQtnwQawJ3KqaKA9RIRMdI9wGTosRGIOwgYFniFRGl4+IuKPZw==}
     dev: false
 
-  /vue@3.4.26:
+  /vue@3.4.26(typescript@5.4.5):
     resolution: {integrity: sha512-bUIq/p+VB+0xrJubaemrfhk1/FiW9iX+pDV+62I/XJ6EkspAO9/DXEjbDFoe8pIfOZBqfk45i9BMc41ptP/uRg==}
     peerDependencies:
       typescript: '*'
@@ -4880,6 +4889,7 @@ packages:
       '@vue/runtime-dom': 3.4.26
       '@vue/server-renderer': 3.4.26(vue@3.4.26)
       '@vue/shared': 3.4.26
+      typescript: 5.4.5
     dev: false
 
   /w3c-keyname@2.2.8:
