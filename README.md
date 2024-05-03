@@ -5,7 +5,7 @@
 [![GitHub License](https://img.shields.io/github/license/scalar/galaxy)](https://github.com/scalar/galaxy/blob/main/LICENSE)
 [![Discord](https://img.shields.io/discord/1135330207960678410?style=flat&color=5865F2)](https://discord.gg/scalar)
 
-This repository deploys the Scalar Galaxy OpenAPI Example to Cloudflare.
+This repository deploys the [Scalar Galaxy OpenAPI Example](https://github.com/scalar/scalar/tree/main/packages/galaxy) to Cloudflare.
 
 ## Development
 
