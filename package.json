@@ -2,9 +2,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "test": "vitest",
     "build": "vite build",
     "preview": "wrangler pages dev dist",
-    "deploy": "$npm_execpath run build && wrangler pages deploy dist"
+    "deploy": "$npm_execpath run build && wrangler pages deploy dist",
+    "format": "$npm_execpath prettier --write .",
+    "format:check": "$npm_execpath prettier --check .",
+    "types:check": "tsc --noEmit --skipLibCheck"
   },
   "dependencies": {
     "@scalar/mock-server": "^0.1.49",
@@ -20,6 +24,9 @@
     "@hono/vite-dev-server": "^0.12.0",
     "@originjs/vite-plugin-commonjs": "^1.0.3",
     "vite": "^5.0.12",
-    "wrangler": "^3.47.0"
+    "vitest": "^1.5.3",
+    "wrangler": "^3.47.0",
+    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "prettier": "^3.0.3"
   }
 }
