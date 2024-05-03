@@ -11,6 +11,7 @@
     "types:check": "tsc --noEmit --skipLibCheck"
   },
   "dependencies": {
+    "@scalar/galaxy": "^0.1.0",
     "@scalar/mock-server": "^0.1.49",
     "follow-redirects": "^1.15.6",
     "form-data": "^4.0.0",
@@ -23,10 +24,10 @@
     "@hono/vite-cloudflare-pages": "^0.2.4",
     "@hono/vite-dev-server": "^0.12.0",
     "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "prettier": "^3.0.3",
     "vite": "^5.0.12",
     "vitest": "^1.5.3",
-    "wrangler": "^3.47.0",
-    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
-    "prettier": "^3.0.3"
+    "wrangler": "^3.47.0"
   }
 }

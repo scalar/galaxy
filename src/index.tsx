@@ -1,7 +1,7 @@
-import { renderer } from './renderer'
-
 import { createMockServer } from '@scalar/mock-server'
-import galaxy from './scalar-galaxy-3.1.json'
+
+import { renderer } from './renderer'
+import galaxy from '@scalar/galaxy/latest.yaml?raw'
 
 // Create the mocked routes
 const app = await createMockServer({

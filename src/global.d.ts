@@ -1,4 +1,4 @@
-import {} from 'hono'
+import 'hono'
 
 declare module 'hono' {
   interface ContextRenderer {
