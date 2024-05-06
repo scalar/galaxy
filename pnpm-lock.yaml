@@ -18,8 +18,8 @@ dependencies:
     specifier: ^4.0.0
     version: 4.0.0
   hono:
-    specifier: ^4.3.0
-    version: 4.3.0
+    specifier: ^4.3.2
+    version: 4.3.2
   proxy-from-env:
     specifier: ^1.1.0
     version: 1.1.0
@@ -36,10 +36,10 @@ devDependencies:
     version: 4.20240502.0
   '@hono/vite-cloudflare-pages':
     specifier: ^0.2.4
-    version: 0.2.5(hono@4.3.0)
+    version: 0.2.5(hono@4.3.2)
   '@hono/vite-dev-server':
     specifier: ^0.12.0
-    version: 0.12.0(hono@4.3.0)
+    version: 0.12.0(hono@4.3.2)
   '@originjs/vite-plugin-commonjs':
     specifier: ^1.0.3
     version: 1.0.3
@@ -880,23 +880,23 @@ packages:
     resolution: {integrity: sha512-GW1Iomhmm1o4Z+X57xGby8A35Cu9UZLL7pSMdqDBkD99U5cywff8F+8hLk5aBTzNubnsFAvWQ/fZjNwPsEn9lA==}
     engines: {node: '>=18.14.1'}
 
-  /@hono/vite-cloudflare-pages@0.2.5(hono@4.3.0):
+  /@hono/vite-cloudflare-pages@0.2.5(hono@4.3.2):
     resolution: {integrity: sha512-/Cw4bREPf2OelHDc/2oVXYXemyKz+wXkC+5uK8ZLo8c2JV7vthSchQPWK7O6BGe7al0z5qKVqhTYkfZvuW0T5w==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
     dependencies:
-      hono: 4.3.0
+      hono: 4.3.2
     dev: true
 
-  /@hono/vite-dev-server@0.12.0(hono@4.3.0):
+  /@hono/vite-dev-server@0.12.0(hono@4.3.2):
     resolution: {integrity: sha512-FJIMuTNfJaL7VjktNfqthFMqRyasXPgeMrS2wKKkDEzaLhlRmllC0bajPGrwH+xRQsTJxD/y6ttjg0x6dJeoMw==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
     dependencies:
       '@hono/node-server': 1.11.1
-      hono: 4.3.0
+      hono: 4.3.2
       miniflare: 3.20240419.0
       minimatch: 9.0.4
     transitivePeerDependencies:
@@ -1282,7 +1282,7 @@ packages:
       '@scalar/galaxy': 0.1.0
       '@scalar/oas-utils': 0.1.6(axios@1.6.8)
       '@scalar/openapi-parser': 0.3.2
-      hono: 4.3.0
+      hono: 4.3.2
       vite-node: 1.5.2
     transitivePeerDependencies:
       - '@jest/globals'
@@ -3121,8 +3121,8 @@ packages:
     engines: {node: '>=12.0.0'}
     dev: false
 
-  /hono@4.3.0:
-    resolution: {integrity: sha512-rf9142VLQNMVBj+BjVLISgDWDxnJGUIuX39dvqcdySwr2gTsPfsqW1twWDUjfwQNWm9hEn40MpDu9RFGUN+e8A==}
+  /hono@4.3.2:
+    resolution: {integrity: sha512-wiZcF5N06tc232U11DnqW6hP8DNoypjsrxslKXfvOqOAkTdh7K1HLZJH/92Mf+urxUTGi96f1w4xx/1Qozoqiw==}
     engines: {node: '>=16.0.0'}
 
   /hookable@5.5.3:
