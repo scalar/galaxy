@@ -59,8 +59,8 @@ devDependencies:
     specifier: 1.3.0
     version: 1.3.0
   wrangler:
-    specifier: ^3.53.1
-    version: 3.53.1(@cloudflare/workers-types@4.20240502.0)
+    specifier: ^3.55.0
+    version: 3.55.0(@cloudflare/workers-types@4.20240502.0)
 
 packages:
 
