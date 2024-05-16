@@ -59,8 +59,8 @@ devDependencies:
     specifier: 1.3.0
     version: 1.3.0
   wrangler:
-    specifier: ^3.55.0
-    version: 3.55.0(@cloudflare/workers-types@4.20240512.0)
+    specifier: ^3.56.0
+    version: 3.56.0(@cloudflare/workers-types@4.20240512.0)
 
 packages:
 
@@ -2447,39 +2447,6 @@ packages:
       '@cloudflare/workerd-linux-64': 1.20240512.0
       '@cloudflare/workerd-linux-arm64': 1.20240512.0
       '@cloudflare/workerd-windows-64': 1.20240512.0
-    dev: true
-
-  /wrangler@3.55.0(@cloudflare/workers-types@4.20240512.0):
-    resolution: {integrity: sha512-VhtCioKxOdVqkHa8jQ6C6bX3by2Ko0uM0DKzrA+6lBZvfDUlGDWSOPiG+1fOHBHj2JTVBntxWCztXP6L+Udr8w==}
-    engines: {node: '>=16.17.0'}
-    hasBin: true
-    peerDependencies:
-      '@cloudflare/workers-types': ^4.20240419.0
-    peerDependenciesMeta:
-      '@cloudflare/workers-types':
-        optional: true
-    dependencies:
-      '@cloudflare/kv-asset-handler': 0.3.2
-      '@cloudflare/workers-types': 4.20240512.0
-      '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
-      '@esbuild-plugins/node-modules-polyfill': 0.2.2(esbuild@0.17.19)
-      blake3-wasm: 2.1.5
-      chokidar: 3.6.0
-      esbuild: 0.17.19
-      miniflare: 3.20240419.1
-      nanoid: 3.3.7
-      path-to-regexp: 6.2.2
-      resolve: 1.22.8
-      resolve.exports: 2.0.2
-      selfsigned: 2.4.1
-      source-map: 0.6.1
-      xxhash-wasm: 1.0.2
-    optionalDependencies:
-      fsevents: 2.3.3
-    transitivePeerDependencies:
-      - bufferutil
-      - supports-color
-      - utf-8-validate
     dev: true
 
   /wrangler@3.56.0(@cloudflare/workers-types@4.20240512.0):
