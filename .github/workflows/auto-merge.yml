@@ -12,12 +12,9 @@ jobs:
     steps:
       - name: Dependabot metadata
         id: metadata
-        uses: dependabot/fetch-metadata@v2
+        uses: dependabot/fetch-metadata@v1
         with:
-          # https://github.com/settings/tokens/new
-          # Expiration: No expiration
-          # Select: repo.*
-          github-token: '${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}'
+          github-token: '${{ secrets.GITHUB_TOKEN }}'
       - name: Approve PR
         run: gh pr review --approve "$PR_URL"
         env:
