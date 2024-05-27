@@ -18,8 +18,8 @@ dependencies:
     specifier: ^4.0.0
     version: 4.0.0
   hono:
-    specifier: ^4.3.9
-    version: 4.3.9
+    specifier: ^4.4.0
+    version: 4.4.0
   proxy-from-env:
     specifier: ^1.1.0
     version: 1.1.0
@@ -36,10 +36,10 @@ devDependencies:
     version: 4.20240512.0
   '@hono/vite-cloudflare-pages':
     specifier: ^0.4.0
-    version: 0.4.0(hono@4.3.9)
+    version: 0.4.0(hono@4.4.0)
   '@hono/vite-dev-server':
     specifier: ^0.12.1
-    version: 0.12.1(hono@4.3.9)
+    version: 0.12.1(hono@4.4.0)
   '@originjs/vite-plugin-commonjs':
     specifier: ^1.0.3
     version: 1.0.3
@@ -755,23 +755,23 @@ packages:
     resolution: {integrity: sha512-GW1Iomhmm1o4Z+X57xGby8A35Cu9UZLL7pSMdqDBkD99U5cywff8F+8hLk5aBTzNubnsFAvWQ/fZjNwPsEn9lA==}
     engines: {node: '>=18.14.1'}
 
-  /@hono/vite-cloudflare-pages@0.4.0(hono@4.3.9):
+  /@hono/vite-cloudflare-pages@0.4.0(hono@4.4.0):
     resolution: {integrity: sha512-+vmfgphNc2DZx457HqrefZmpVVhJmz3bQaDpylBgInt9uPEV+xuFwnTaHwVn00R00HPmJuSDT+9ybvYDPIDQuQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
     dependencies:
-      hono: 4.3.9
+      hono: 4.4.0
     dev: true
 
-  /@hono/vite-dev-server@0.12.1(hono@4.3.9):
+  /@hono/vite-dev-server@0.12.1(hono@4.4.0):
     resolution: {integrity: sha512-Fm7BXm9onjEaU5OqkLhU4pkdBKenlulrExDSkBxXULF+7NQznHppWnKcDI6A0pvjz0oNykNy5F7QnHhofmnMdQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
     dependencies:
       '@hono/node-server': 1.11.1
-      hono: 4.3.9
+      hono: 4.4.0
       miniflare: 3.20240419.1
       minimatch: 9.0.4
     transitivePeerDependencies:
@@ -959,7 +959,7 @@ packages:
       '@hono/node-server': 1.11.1
       '@scalar/oas-utils': 0.1.11(axios@1.6.8)
       '@scalar/openapi-parser': 0.3.2
-      hono: 4.3.9
+      hono: 4.4.0
     transitivePeerDependencies:
       - axios
       - less
@@ -1728,8 +1728,8 @@ packages:
       function-bind: 1.1.2
     dev: true
 
-  /hono@4.3.9:
-    resolution: {integrity: sha512-6c5LVE23HnIS8iBhY+XPmYJlPeeClznOi7mBNsAsJCgxo8Ciz75LTjqRUf5wv4RYq8kL+1KPLUZHCtKmbZssNg==}
+  /hono@4.4.0:
+    resolution: {integrity: sha512-Bb2GHk8jmlLIuxc3U+7UBGOoA5lByJTAFnRdH2N2fqEVy9TEQzJ9saIJUQ/ZqBvEvgEFe7UjPFNSFi8cyeU+3Q==}
     engines: {node: '>=16.0.0'}
 
   /human-signals@5.0.0:
