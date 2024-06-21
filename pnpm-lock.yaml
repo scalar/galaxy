@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@scalar/galaxy':
-    specifier: ^0.1.2
-    version: 0.1.5
+    specifier: ^0.2.2
+    version: 0.2.2
   '@scalar/mock-server':
     specifier: ^0.1.65
     version: 0.1.72(axios@1.7.2)
@@ -942,8 +942,8 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@scalar/galaxy@0.1.5:
-    resolution: {integrity: sha512-j+uu+v61HY4j1ayXuNjpDAoMjXnUuHfEbTTfKtbOVLA8Yz4SVjGu5wc/goEPDuW/xMIH4X1m9Ow8I25UsyOTaQ==}
+  /@scalar/galaxy@0.2.2:
+    resolution: {integrity: sha512-QzBryEleTmDfV5WEfKbsADaR9L2s3IJ/+QswGIdtQ2hEDduiAmDOP4nXCt37wo8+soO3ei4SkApYGgiyA63q+w==}
     engines: {node: '>=18'}
     dev: false
 
