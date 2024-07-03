@@ -12,8 +12,8 @@ importers:
         specifier: ^0.2.3
         version: 0.2.3
       '@scalar/mock-server':
-        specifier: ^0.2.4
-        version: 0.2.4
+        specifier: ^0.2.9
+        version: 0.2.9
       follow-redirects:
         specifier: ^1.15.6
         version: 1.15.6
@@ -635,12 +635,12 @@ packages:
     resolution: {integrity: sha512-zmyjyi8qvaAJQh32bKmGSrfR3eTZw5p8j9cvjl/0j/gmURU22On0/lltnvhlvoYcmEREWkxGhSmKyiQSDXiESg==}
     engines: {node: '>=18'}
 
-  '@scalar/mock-server@0.2.4':
-    resolution: {integrity: sha512-drmcelb6kypGCDB9LNwjjIqWuZsOFuEYIr62GwTJkBo49AKWt6xkoNmVmY7TeUHb6rvVQBBL530YEKVEQt0K6w==}
+  '@scalar/mock-server@0.2.9':
+    resolution: {integrity: sha512-mSAZmfVw+q1gsMgZvVlOoFxjSy2gKb3X/xWRYKWfPv93j8EkcRcHIsKpbh3xhgiL5P4x7GleWgHJ5WK62Vpaig==}
     engines: {node: '>=18'}
 
-  '@scalar/oas-utils@0.2.4':
-    resolution: {integrity: sha512-0iOeD9L//lUBdcBGXgBIeZqc1IlasXSwSvwp2jLOLKUrcwCWGElBSfKHkg+9gHYFJorP55wWVmhAQOAXywyy2w==}
+  '@scalar/oas-utils@0.2.9':
+    resolution: {integrity: sha512-55vMmM0/C0DcMIM8U5nUvQmHerWZ26JadS4jisbxyBpk74NMtbw5rmMzkPOHjFPLlkP7ZxE06Lw7+wYc0CZW9Q==}
     engines: {node: '>=18'}
 
   '@scalar/openapi-parser@0.7.1':
@@ -1925,16 +1925,16 @@ snapshots:
 
   '@scalar/galaxy@0.2.3': {}
 
-  '@scalar/mock-server@0.2.4':
+  '@scalar/mock-server@0.2.9':
     dependencies:
       '@hono/node-server': 1.11.4
-      '@scalar/oas-utils': 0.2.4
+      '@scalar/oas-utils': 0.2.9
       '@scalar/openapi-parser': 0.7.1
       hono: 4.4.8
     transitivePeerDependencies:
       - debug
 
-  '@scalar/oas-utils@0.2.4':
+  '@scalar/oas-utils@0.2.9':
     dependencies:
       axios: 1.7.2
       nanoid: 5.0.7
