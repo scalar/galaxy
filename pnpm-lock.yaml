@@ -21,8 +21,8 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
       hono:
-        specifier: ^4.4.8
-        version: 4.4.8
+        specifier: ^4.5.0
+        version: 4.5.0
       proxy-from-env:
         specifier: ^1.1.0
         version: 1.1.0
@@ -38,10 +38,10 @@ importers:
         version: 4.20240620.0
       '@hono/vite-cloudflare-pages':
         specifier: ^0.4.1
-        version: 0.4.1(hono@4.4.8)
+        version: 0.4.1(hono@4.5.0)
       '@hono/vite-dev-server':
         specifier: ^0.12.2
-        version: 0.12.2(hono@4.4.8)
+        version: 0.12.2(hono@4.5.0)
       '@originjs/vite-plugin-commonjs':
         specifier: ^1.0.3
         version: 1.0.3
@@ -1052,8 +1052,8 @@ packages:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
 
-  hono@4.4.8:
-    resolution: {integrity: sha512-eewnSgTzdWgFVn97kPV24h+9UVNUQ+9mj6IRxr7dBseTaTBSHtFo/T/vRNcqJkQFysVoXyecflr3Xe/fdvzEpQ==}
+  hono@4.5.0:
+    resolution: {integrity: sha512-ZbezypZfn4odyApjCCv+Fw5OgweBqRLA/EsMyc4FUknFvBJcBIKhHy4sqmD1rWpBc/3wUlaQ6tqOPjk36R1ckg==}
     engines: {node: '>=16.0.0'}
 
   human-signals@5.0.0:
@@ -1830,14 +1830,14 @@ snapshots:
 
   '@hono/node-server@1.11.4': {}
 
-  '@hono/vite-cloudflare-pages@0.4.1(hono@4.4.8)':
+  '@hono/vite-cloudflare-pages@0.4.1(hono@4.5.0)':
     dependencies:
-      hono: 4.4.8
+      hono: 4.5.0
 
-  '@hono/vite-dev-server@0.12.2(hono@4.4.8)':
+  '@hono/vite-dev-server@0.12.2(hono@4.5.0)':
     dependencies:
       '@hono/node-server': 1.11.4
-      hono: 4.4.8
+      hono: 4.5.0
       miniflare: 3.20240610.1
       minimatch: 9.0.4
     transitivePeerDependencies:
@@ -1930,7 +1930,7 @@ snapshots:
       '@hono/node-server': 1.11.4
       '@scalar/oas-utils': 0.2.4
       '@scalar/openapi-parser': 0.7.1
-      hono: 4.4.8
+      hono: 4.5.0
     transitivePeerDependencies:
       - debug
 
@@ -2355,7 +2355,7 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  hono@4.4.8: {}
+  hono@4.5.0: {}
 
   human-signals@5.0.0: {}
 
