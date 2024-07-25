@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@scalar/galaxy':
-        specifier: ^0.2.3
-        version: 0.2.3
+        specifier: ^0.2.5
+        version: 0.2.5
       '@scalar/mock-server':
         specifier: ^0.2.4
         version: 0.2.4
@@ -631,8 +631,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@scalar/galaxy@0.2.3':
-    resolution: {integrity: sha512-zmyjyi8qvaAJQh32bKmGSrfR3eTZw5p8j9cvjl/0j/gmURU22On0/lltnvhlvoYcmEREWkxGhSmKyiQSDXiESg==}
+  '@scalar/galaxy@0.2.5':
+    resolution: {integrity: sha512-gYZKly6siuFKwJBSQyskm1+WmxLIKTO88XX5Y2rqZ0Z+j/D2BSQskd51qCQaa3H5B0WgUiiDO2EwkCvaoh0+5g==}
     engines: {node: '>=18'}
 
   '@scalar/mock-server@0.2.4':
@@ -1923,7 +1923,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.18.0':
     optional: true
 
-  '@scalar/galaxy@0.2.3': {}
+  '@scalar/galaxy@0.2.5': {}
 
   '@scalar/mock-server@0.2.4':
     dependencies:
