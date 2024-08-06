@@ -12,8 +12,8 @@ importers:
         specifier: ^0.2.5
         version: 0.2.5
       '@scalar/mock-server':
-        specifier: ^0.2.26
-        version: 0.2.26(typescript@5.5.4)
+        specifier: ^0.2.29
+        version: 0.2.29(typescript@5.5.4)
       follow-redirects:
         specifier: ^1.15.6
         version: 1.15.6
@@ -621,20 +621,20 @@ packages:
     resolution: {integrity: sha512-gYZKly6siuFKwJBSQyskm1+WmxLIKTO88XX5Y2rqZ0Z+j/D2BSQskd51qCQaa3H5B0WgUiiDO2EwkCvaoh0+5g==}
     engines: {node: '>=18'}
 
-  '@scalar/mock-server@0.2.26':
-    resolution: {integrity: sha512-jgU0fDTUpqnXKE2uFSuvEdOyqTuWK1UaCqKUtdt5lPDjccDoYCbCTjhGuKQ01aWpsZoQvigxXEc4fTFwFwjx2A==}
+  '@scalar/mock-server@0.2.29':
+    resolution: {integrity: sha512-T39QC+g5EOvIlfGzMsY4WmMN2WzUaefS7RfHBC1av7P85qEsyoirx6+TRqWqqqM4cyZrnernNL6qk2z+RW94sw==}
     engines: {node: '>=18'}
 
-  '@scalar/oas-utils@0.2.23':
-    resolution: {integrity: sha512-yh668poZpYgRjTtCHN5mACG3sMMPqeJw1cY1nsdW7JPiqFGTFsUaUai3EmVRsIKOZMcC+mwKm3cAaqHzEfiRJg==}
+  '@scalar/oas-utils@0.2.26':
+    resolution: {integrity: sha512-9l4sJ4Kg7RyaCURCapDWPCSsnlp2h3xg+Dp0vtDMPMdp5y53tINag+yw3wj4+g1/QpzQ95muK0HZD7rgFUkx1Q==}
     engines: {node: '>=18'}
 
   '@scalar/openapi-parser@0.7.2':
     resolution: {integrity: sha512-kgzFox4KzC3NLrOZeT9m/iQ2VMNvL7JNz8ec+hz0sYulvMtYQ1qTqEyjQjALyCDzmzrSJA11Vg8JMMHDw3AA7A==}
     engines: {node: '>=18'}
 
-  '@scalar/themes@0.9.19':
-    resolution: {integrity: sha512-V3dYaPbaBOaDfeaOaLOskXoZ8u//qZoHrYbeCbVWaWa943Y2vN/6mVs7bq9R26afUpzx3uSHMcGhRXXmxIv4rg==}
+  '@scalar/themes@0.9.21':
+    resolution: {integrity: sha512-IxUSkxyHILScT18SIb5pLFThKbShVC71xyhFDqHxJ9CP8Wjd2UhQBxoMComPE9MVs75tEzENNINyZhi1Lp3fxQ==}
     engines: {node: '>=18'}
 
   '@trivago/prettier-plugin-sort-imports@4.3.0':
@@ -1930,9 +1930,9 @@ snapshots:
 
   '@scalar/galaxy@0.2.5': {}
 
-  '@scalar/mock-server@0.2.26(typescript@5.5.4)':
+  '@scalar/mock-server@0.2.29(typescript@5.5.4)':
     dependencies:
-      '@scalar/oas-utils': 0.2.23(typescript@5.5.4)
+      '@scalar/oas-utils': 0.2.26(typescript@5.5.4)
       '@scalar/openapi-parser': 0.7.2
       hono: 4.5.3
       object-to-xml: 2.0.0
@@ -1940,9 +1940,9 @@ snapshots:
       - debug
       - typescript
 
-  '@scalar/oas-utils@0.2.23(typescript@5.5.4)':
+  '@scalar/oas-utils@0.2.26(typescript@5.5.4)':
     dependencies:
-      '@scalar/themes': 0.9.19(typescript@5.5.4)
+      '@scalar/themes': 0.9.21(typescript@5.5.4)
       axios: 1.7.3
       nanoid: 5.0.7
       yaml: 2.5.0
@@ -1960,7 +1960,7 @@ snapshots:
       leven: 4.0.0
       yaml: 2.5.0
 
-  '@scalar/themes@0.9.19(typescript@5.5.4)':
+  '@scalar/themes@0.9.21(typescript@5.5.4)':
     dependencies:
       vue: 3.4.35(typescript@5.5.4)
     transitivePeerDependencies:
