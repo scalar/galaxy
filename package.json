@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@scalar/galaxy": "^0.2.5",
-    "@scalar/mock-server": "^0.2.26",
+    "@scalar/mock-server": "^0.2.59",
     "follow-redirects": "^1.15.6",
     "form-data": "^4.0.0",
     "hono": "^4.5.3",
