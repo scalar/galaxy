@@ -28,7 +28,7 @@
     "@trivago/prettier-plugin-sort-imports": "^4.2.0",
     "prettier": "^3.3.3",
     "typescript": "^5.5.4",
-    "vite": "^5.3.5",
+    "vite": "^5.4.9",
     "vitest": "2.0.5",
     "wrangler": "^3.68.0"
   }
