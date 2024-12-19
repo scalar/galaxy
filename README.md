@@ -26,7 +26,7 @@ We are API nerds. You too? Let’s chat on Discord: <https://discord.gg/scalar>
 		<tr>
             <td align="center">
                 <a href="https://github.com/hanspagel">
-                    <img src="https://avatars.githubusercontent.com/u/1577992?v=4" width="100;" alt="hanspagel"/>
+                    <img src="https://private-avatars.githubusercontent.com/u/1577992?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MjE2MDAsIm5iZiI6MTczNDYyMDQwMCwicGF0aCI6Ii91LzE1Nzc5OTIifQ.IafWQ_KGGfqvooQZM5pOCAa3jH0X-LvJr8HDXqojVh8&v=4" width="100;" alt="hanspagel"/>
                     <br />
                     <sub><b>hanspagel</b></sub>
                 </a>
